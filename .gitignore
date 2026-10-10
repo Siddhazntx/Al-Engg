@@ -1,0 +1,120 @@
+# Python bytecode and interpreter artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments and local Python installations
+.venv/
+venv/
+env/
+ENV/
+.env/
+virtualenv/
+pip-wheel-metadata/
+
+# Python packaging and build output
+build/
+dist/
+*.egg-info/
+*.egg
+wheelhouse/
+share/python-wheels/
+
+# Python test, coverage, and type-checker output
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+nosetests.xml
+test-results/
+.hypothesis/
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+.benchmarks/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# uv and other tool caches
+.uv/
+.cache/
+
+# Local environment variables and credentials
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+.secrets
+.secrets.*
+secrets.json
+secrets.yaml
+secrets.yml
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Logs and temporary files
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+*.orig
+*~
+
+# Editor and IDE state
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.history/
+*.code-workspace
+
+# Operating system files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Generated documentation and frontend/build tooling
+site/
+.sass-cache/
+.eslintcache
+.stylelintcache
+
+# Local databases
+*.sqlite
+*.sqlite3
+*.db
+
+# Generated model, experiment, and dataset output directories
+artifacts/
+checkpoints/
+lightning_logs/
+mlruns/
+outputs/
+wandb/
+tensorboard/
+datasets/
+data/cache/
